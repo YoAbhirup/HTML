@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>
+    <title>Second webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @media(min-width:600px){
+            body{
+            background-color: #55DDE0;
+        }
+    }
+        @media(max-width:599px){
+            body{
+                background-color: #f0aa85;
+            }
+        }
+        h1{
+        text-align:center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #F26419;
+        font-size: xx-large;
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body > div{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        padding: 20px;
+        margin: 10px;
+        color:#F6AE2D;
+
+    }
+
+    table{
+        border: 5px solid #F26419;
+        border-collapse: collapse;
+        
+    }
+    td,th{
+        border:3px solid #33658A;
+        
+
+    }
+    ul pre {
+        color:  #33658A;
+
+    }
+    a[href="https://www.gmail.com"]{
+        font-size: 30px;
+
+    }
+    .btn{
+        background-image :url('texture-1909992__480.jpg') ;
+        width: 250px;
+        height: 80px;
+        background-size: 100%;
+        font-size: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-image: url('Jackson-Pollock-detail.jpg') ;
+    }
+    #ButtonS{
+        background-color: #F26419;
+        width: 150px;
+        height: 60px;
+        border: none;
+        border-radius: 8px;
+    }
+    #ButtonS:hover{
+        background-color: #f0aa85;
+    }
+   
+    </style>
+</head>
+<body>
+    <div id="container">
+    <h1>
+        This is an ordered list
+    </h1>
+    <ol style="font-family: Arial, Helvetica, sans-serif">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h1>
+        This is an unordered list
+    </h1>
+
+    <ul>
+        <pre style="font-family: Arial, Helvetica, sans-serif;">Names</pre>
+        <li>Abhirup</li>
+        <li>Aniket</li>
+        <li>Ashutosh</li>
+        <li>Abhir</li>
+    </ul>
+    <img src="Screenshot_20230125_003501.png" width="500" alt="Spiderman">
+    <br>
+    <a href=https://www.gmail.com>Gmail</a>
+    <h1>This is a table</h1>
+    <table style="text-align: center;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Branch</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Abhirup</td>
+                <td>ECE</td>
+                <td>8.91</td>
+            </tr>
+            <tr>
+                <td>Abhir</td>
+                <td>CSE</td>
+                <td>8.2</td>
+            </tr>
+            <tr>
+                <td>Aniket</td>
+                <td>ECE</td>
+                <td>8.1</td>
+            </tr>
+            <tr>
+                <td>Ashutosh</td>
+                <td>EEE</td>
+                <td>9.55</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button class="btn">Mark as Viewed</button>
+    <div style="text-align: left;">
+    <h1 style="text-align: left;">This is a form</h1>
+    <form>
+        Name
+        <input type="text" placeholder="Enter Your Name" name="Name">
+        <br>
+        <br>
+        Password
+        <input type="password" placeholder="Enter Password" name="Password">
+        <br>
+        <br>
+        Colour
+        <br>
+        <input type="radio" name="Colour" value="Red">Red
+        <input type="radio" name="Colour" value="Yellow"> Yellow
+        <input type="radio" name="Colour" value="Green">Green
+        <input type="radio" name="Colour" value="Other">Other
+        <br>
+        <br>
+        Region
+        <br>
+        <input name="Continent" list="Continents" placeholder="Continent">
+        <datalist id="Continents">
+            <option value="Asia">Asia</option>
+            <option value="Africa">Africa</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+            <option value="Europe">Europe</option>
+            <option value="Australia">Australia</option>
+            <option value="Antarctica">Antarctica</option>
+
+        </datalist>
+        <br>
+        <br>
+        <input type="submit" id="ButtonS">
+
+    </form>
+    </div>
+    </div>
+    
+</body>
+
+
