@@ -1,0 +1,59 @@
+header {
+    font-size: 40px;
+    position: relative;
+    left: 80px;
+    color: rgb(247, 187, 7);
+    top:20px
+
+    
+}
+body {
+    background-color: rgb(244, 242, 238);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+
+ }
+.motto{
+    margin-left: 80px;
+    width: 60%;
+    position: relative;
+    
+    
+}
+.motto p{
+    font-size: 50px;
+
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    margin-left: 80px;
+    position: relative;
+    top: 10px;
+}
+#beauty-heading{
+    font-size: 20px;
+}
+
+#beauty-text2{
+    font-size: 18px;
+}
+
+#beauty-text{
+    position: relative;
+    right: 50px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    height: 30px;
+}
+footer span{
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+}
